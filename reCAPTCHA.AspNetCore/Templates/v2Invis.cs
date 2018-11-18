@@ -15,7 +15,7 @@ namespace reCAPTCHA.AspNetCore.Templates
     /// Class to produce the template output
     /// </summary>
     
-    #line 1 "C:\Repository\TimothyMeadows\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v2Invis.tt"
+    #line 1 "C:\Repos\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v2Invis.tt"
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.TextTemplating", "15.0.0.0")]
     public partial class v2Invis : v2InvisBase
     {
@@ -28,7 +28,7 @@ namespace reCAPTCHA.AspNetCore.Templates
             this.Write("\r\n<input id=\"g-recaptcha-response\" name=\"g-recaptcha-response\" type=\"hidden\" valu" +
                     "e=\"\" />\r\n<script>\r\n\tfunction _");
             
-            #line 6 "C:\Repository\TimothyMeadows\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v2Invis.tt"
+            #line 6 "C:\Repos\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v2Invis.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(Model.Method));
             
             #line default
@@ -36,34 +36,34 @@ namespace reCAPTCHA.AspNetCore.Templates
             this.Write("() {\r\n\t\tif (typeof grecaptcha !== \'undefined\') {\r\n\t\t\tgrecaptcha.render(\'submit\', " +
                     "{\r\n\t\t\t\t\'sitekey\' : \'");
             
-            #line 9 "C:\Repository\TimothyMeadows\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v2Invis.tt"
+            #line 9 "C:\Repos\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v2Invis.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(Model.Settings.SiteKey));
             
             #line default
             #line hidden
             this.Write("\',\r\n\t\t\t\t\'callback\' : _");
             
-            #line 10 "C:\Repository\TimothyMeadows\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v2Invis.tt"
+            #line 10 "C:\Repos\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v2Invis.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(Model.Method));
             
             #line default
             #line hidden
             this.Write("_\r\n          });\r\n\t\t}\r\n\t}\r\n\r\n\tfunction _");
             
-            #line 15 "C:\Repository\TimothyMeadows\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v2Invis.tt"
+            #line 15 "C:\Repos\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v2Invis.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(Model.Method));
             
             #line default
             #line hidden
             this.Write("_(token) {\r\n\t\tdocument.getElementById(\'g-recaptcha-response\').value = token;\r\n\t}\r" +
-                    "\n</script>\r\n<script src=\"https://www.google.com/recaptcha/api.js?onload=_");
+                    "\n</script>\r\n<script src=\"https://www.recaptcha.net/recaptcha/api.js?onload=_");
             
-            #line 19 "C:\Repository\TimothyMeadows\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v2Invis.tt"
+            #line 19 "C:\Repos\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v2Invis.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(Model.Method));
             
             #line default
             #line hidden
-            this.Write("&render=explicit\" async defer>");
+            this.Write("&render=explicit\" async defer>\r\n");
             return this.GenerationEnvironment.ToString();
         }
     }

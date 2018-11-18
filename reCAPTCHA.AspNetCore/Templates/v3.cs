@@ -15,7 +15,7 @@ namespace reCAPTCHA.AspNetCore.Templates
     /// Class to produce the template output
     /// </summary>
     
-    #line 1 "C:\Repository\TimothyMeadows\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v3.tt"
+    #line 1 "C:\Repos\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v3.tt"
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.TextTemplating", "15.0.0.0")]
     public partial class v3 : v3Base
     {
@@ -29,28 +29,28 @@ namespace reCAPTCHA.AspNetCore.Templates
                     "e=\"\" />\r\n<script>\r\n\tif (typeof grecaptcha !== \'undefined\') {\r\n\t\tgrecaptcha.ready" +
                     "(function () {\r\n\t\t\tgrecaptcha.execute(\'");
             
-            #line 8 "C:\Repository\TimothyMeadows\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v3.tt"
+            #line 8 "C:\Repos\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v3.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(Model.Settings.SiteKey));
             
             #line default
             #line hidden
             this.Write("\', { \'action\': \'");
             
-            #line 8 "C:\Repository\TimothyMeadows\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v3.tt"
+            #line 8 "C:\Repos\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v3.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(Model.Action));
             
             #line default
             #line hidden
             this.Write("\' }).then(function (token) {\r\n\t\t\t\tdocument.getElementById(\'g-recaptcha-response\')" +
-                    ".value = token;\r\n\t\t\t});\r\n\t\t});\r\n\t}\r\n</script>\r\n<script src=\"https://www.google.c" +
-                    "om/recaptcha/api.js?render=");
+                    ".value = token;\r\n\t\t\t});\r\n\t\t});\r\n\t}\r\n</script>\r\n<script src=\"https://www.recaptch" +
+                    "a.net/recaptcha/api.js?render=");
             
-            #line 14 "C:\Repository\TimothyMeadows\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v3.tt"
+            #line 14 "C:\Repos\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v3.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(Model.Settings.SiteKey));
             
             #line default
             #line hidden
-            this.Write("\"></script>");
+            this.Write("\"></script>\r\n");
             return this.GenerationEnvironment.ToString();
         }
     }

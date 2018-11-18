@@ -15,7 +15,7 @@ namespace reCAPTCHA.AspNetCore.Templates
     /// Class to produce the template output
     /// </summary>
     
-    #line 1 "C:\Repository\TimothyMeadows\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v2.tt"
+    #line 1 "C:\Repos\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v2.tt"
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.TextTemplating", "15.0.0.0")]
     public partial class v2 : v2Base
     {
@@ -27,50 +27,50 @@ namespace reCAPTCHA.AspNetCore.Templates
         {
             this.Write("\r\n<div id=\"");
             
-            #line 4 "C:\Repository\TimothyMeadows\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v2.tt"
+            #line 4 "C:\Repos\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v2.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(Model.Uid));
             
             #line default
             #line hidden
             this.Write("\" class=\"g-recaptcha\" data-sitekey=\"");
             
-            #line 4 "C:\Repository\TimothyMeadows\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v2.tt"
+            #line 4 "C:\Repos\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v2.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(Model.Settings.SiteKey));
             
             #line default
             #line hidden
             this.Write("\"></div>\r\n<script>\r\n\tfunction _");
             
-            #line 6 "C:\Repository\TimothyMeadows\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v2.tt"
+            #line 6 "C:\Repos\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v2.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(Model.Method));
             
             #line default
             #line hidden
             this.Write("() {\r\n\t\tif (typeof grecaptcha !== \'undefined\')\r\n\t\t\tgrecaptcha.render(\'");
             
-            #line 8 "C:\Repository\TimothyMeadows\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v2.tt"
+            #line 8 "C:\Repos\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v2.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(Model.Uid));
             
             #line default
             #line hidden
             this.Write("\', {\'sitekey\' : \'");
             
-            #line 8 "C:\Repository\TimothyMeadows\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v2.tt"
+            #line 8 "C:\Repos\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v2.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(Model.Settings.SiteKey));
             
             #line default
             #line hidden
             this.Write("\', \'theme\' : \'");
             
-            #line 8 "C:\Repository\TimothyMeadows\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v2.tt"
+            #line 8 "C:\Repos\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v2.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(Model.Theme));
             
             #line default
             #line hidden
-            this.Write("\' })\r\n\t}\r\n</script>\r\n<script src=\"https://www.google.com/recaptcha/api.js?onload=" +
-                    "_");
+            this.Write("\' })\r\n\t}\r\n</script>\r\n<script src=\"https://www.recaptcha.net/recaptcha/api.js?onlo" +
+                    "ad=_");
             
-            #line 11 "C:\Repository\TimothyMeadows\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v2.tt"
+            #line 11 "C:\Repos\reCAPTCHA.AspNetCore\reCAPTCHA.AspNetCore\Templates\v2.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(Model.Method));
             
             #line default
