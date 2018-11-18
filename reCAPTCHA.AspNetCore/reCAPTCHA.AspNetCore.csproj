@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>2.1.0</Version>
+    <PackageId>reCAPTCHA.AspNetCore.NetStandard</PackageId>
+    <Description>Google reCAPTCHA v2/v3 for ASP.NET Core 2.x</Description>
+    <RepositoryUrl>https://github.com/TriJetScud/reCAPTCHA.AspNetCore</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/TriJetScud/reCAPTCHA.AspNetCore/blob/master/LICENSE</PackageLicenseUrl>
   </PropertyGroup>
 
   <ItemGroup>
