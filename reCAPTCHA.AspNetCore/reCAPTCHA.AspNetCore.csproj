@@ -8,6 +8,8 @@
     <Description>Google reCAPTCHA v2/v3 for ASP.NET Core 2.x</Description>
     <RepositoryUrl>https://github.com/TriJetScud/reCAPTCHA.AspNetCore</RepositoryUrl>
     <PackageLicenseUrl>https://github.com/TriJetScud/reCAPTCHA.AspNetCore/blob/master/LICENSE</PackageLicenseUrl>
+    <AssemblyVersion>2.1.1.0</AssemblyVersion>
+    <FileVersion>2.1.1.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
