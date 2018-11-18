@@ -5,7 +5,7 @@ Google reCAPTCHA v2/v3 for ASP.NET Core 2
 
 From the a command prompt
 ```bash
-dotnet add package reCAPTCHA.AspNetCore
+dotnet add package reCAPTCHA.AspNetCore.NetStandard
 ```
 
 You can also search for package via your nuget ui / website:
