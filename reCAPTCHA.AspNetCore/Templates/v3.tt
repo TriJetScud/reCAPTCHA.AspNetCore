@@ -11,4 +11,4 @@
 		});
 	}
 </script>
-<script src="https://www.google.com/recaptcha/api.js?render=<#= Model.Settings.SiteKey #>"></script>
+<script src="https://www.recaptcha.net/recaptcha/api.js?render=<#= Model.Settings.SiteKey #>"></script>
